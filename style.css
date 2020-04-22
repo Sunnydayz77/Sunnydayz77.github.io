@@ -1,0 +1,227 @@
+/* =============================
+HEADER
+================================ */
+
+header {
+  background-color: #fff9da;
+  border: solid black; 
+  border-width: 5px 5px 0px 5px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+a {
+  justify-content: space-around;
+  padding: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+  color: rgb(51, 172, 132);
+}
+
+#divs_container > div.firstDivider > a {
+  padding: 0px;
+}
+
+.centeredName {
+  font-size: 40px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h4 {
+  font-weight: 400;
+  font-style: italic;
+  text-decoration-line: overline underline;
+}
+
+
+/* =============================
+MAIN SECTIONS
+================================ */
+
+body {
+  margin: 0px;
+}
+
+a:hover {
+  color: grey;
+}
+
+#divs_container {
+  background-color: rgb(51, 172, 132);
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  height: auto;
+  width: auto;
+  border: solid black; 
+  border-width: 5px 5px 0px 5px;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* =============================
+MAIN BACKGROUND IMAGE
+================================ */
+.firstDivider {
+  text-align: center;
+  /* background-size: cover; */
+  /* background-image: url("http://s1.picswalls.com/wallpapers/2014/08/01/new-york-city-background_010648668_143.jpg"); */
+  background-position: center;
+  border-width: 5px;  
+  border-bottom-style: outset;
+  margin: 0 auto;
+  width: 85%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+
+#divs_container > div.firstDivider > img {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  filter: blur(2px);
+  /* align-content: center; */
+}
+
+
+/* =============================
+ABOUT ME
+================================ */
+.secondDivider {
+  background-color: rgb(255, 255, 255, 0.5);
+  text-align: center;
+  /* border-width:5px;  
+  border-bottom-style: outset; */
+  padding: 2px;
+  font-weight: 700;
+  top: 10px;
+  bottom: 10px;
+}
+
+#Section_further_down2 > a > img {
+  border-radius: 30px;
+  padding: 20px;
+}
+
+/* =============================
+PARAGRAPH ABOUT ME
+================================ */
+.thirdDivider {
+  background-color: rgb(255, 255, 255, 0.5);
+  text-align: center;
+  border-width:5px;  
+  border-bottom-style: outset;
+  padding: 20px;
+  font-weight: 700;
+  top: 10px;
+  bottom: 10px;
+}
+
+/* =============================
+PROJECTS
+================================ */
+
+hr {
+  width: 1px; 
+  height: 100px; 
+  background: black; 
+  border: none;
+}
+
+.fourthDivider {
+  padding: 5px 0 0 5px;
+  display: inline-block;
+  max-width: max-content;
+  max-height: max-content;
+}
+
+.fifthDivider {
+  padding: 5px 0 0 5px;
+  display: inline-block;
+  max-width: max-content;
+  max-height: max-content;
+  /* width: 300;
+  height: 200; */
+}
+
+.sixthDivider {
+  padding: 5px 0 0 5px;
+  display: inline-block;
+  max-width: max-content;
+  max-height: max-content;
+  /* width: 300;
+  height: 200; */
+}
+
+.seventhDivider {
+  padding: 5px 0 0 5px;
+  display: inline-block;
+  max-width: max-content;
+  max-height: max-content;
+  /* width: 250;
+  height: 325; */
+}
+
+.container {
+  border: 3px solid grey;
+  padding: 20px 40px 40px;
+  max-width: 640px;
+  align-items: center;
+}
+
+.containerImage {
+      display: inline-block;
+      vertical-align: top;
+      width: 46%;
+      /* margin: 20px 30px 0 0; */
+  }
+  
+.containerText {
+      display: inline-block;
+      width: 46%;
+      @media (max-width: 620px) {
+          width: 100%;
+      }
+  }
+
+
+
+/* =============================
+FOOTER
+================================ */
+footer {
+  background-color: #fff9da;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin: 0 auto;
+  border: 5px solid #000000;
+  font-weight: 700;
+}
+
+#Section_further_down4 > p > a {
+  padding: 0px;
+}
+
+
+/* =============================
+MEDIA RESPONSIVENESS
+================================ */
+
