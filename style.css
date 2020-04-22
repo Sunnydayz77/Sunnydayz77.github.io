@@ -42,7 +42,7 @@ h4 {
 
 
 /* =============================
-MAIN SECTIONS
+ALL SECTIONS
 ================================ */
 
 body {
@@ -69,6 +69,20 @@ a:hover {
 h2 {
   text-align: center;
 }
+
+.button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  border-radius: 30px;
+}
+
 
 /* =============================
 MAIN BACKGROUND IMAGE
@@ -179,26 +193,34 @@ hr {
   height: 325; */
 }
 
-.container {
+.projectContainer {
   border: 3px solid grey;
+  border-radius: 30px;
   padding: 20px 40px 40px;
   max-width: 640px;
+  align-items: center;
+}
+
+div.projectContainer {
+  margin: 0 auto;
+  padding: 20px;
   align-items: center;
 }
 
 .containerImage {
       display: inline-block;
       vertical-align: top;
-      width: 46%;
+      width: 43%;
       /* margin: 20px 30px 0 0; */
-      height: 46%;
+      height: 43%;
       background-repeat: no-repeat;
       background-size: contain;
   }
   
 .containerText {
       display: inline-block;
-      width: 46%;
+      width: 43%;
+      padding: 5px;
       @media (max-width: 620px) {
           width: 100%;
       }
