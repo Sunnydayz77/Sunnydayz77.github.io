@@ -3,8 +3,8 @@ HEADER
 ================================ */
 
 header {
-  background-color: #fff9da;
-  border: solid black; 
+  background-color: rgb(255, 249, 218);
+  border: solid rgb(0, 0, 0); 
   border-width: 5px 5px 0px 5px;
   text-align: center;
   margin: 0 auto;
@@ -50,7 +50,7 @@ body {
 }
 
 a:hover {
-  color: grey;
+  color: rgb(128, 128, 128);
 }
 
 #divs_container {
@@ -62,7 +62,7 @@ a:hover {
   margin: 0 auto;
   height: auto;
   width: auto;
-  border: solid black; 
+  border: solid rgb(0, 0, 0); 
   border-width: 5px 5px 0px 5px;
 }
 
@@ -73,18 +73,18 @@ h2 {
 .button {
   font: bold 11px Arial;
   text-decoration: none;
-  background-color: #EEEEEE;
-  color: #333333;
+  background-color: rgb(238, 238, 238);
+  color: rgb(51, 51, 51);
   padding: 2px 6px 2px 6px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
+  border-top: 1px solid rgb(204, 204, 204);
+  border-right: 1px solid rgb(51, 51, 51);
+  border-bottom: 1px solid rgb(51, 51, 51);
+  border-left: 1px solid rgb(204, 204, 204);
   border-radius: 30px;
 }
 
 p {
-  max-width: 800px;
+  max-width: 750px;
   margin: 0 auto;
 }
 
@@ -144,7 +144,7 @@ PARAGRAPH ABOUT ME
 .thirdDivider {
   background-color: rgb(255, 255, 255, 0.5);
   text-align: center;
-  border-width:5px;  
+  border-width: 5px;  
   border-bottom-style: outset;
   padding: 20px;
   font-weight: 700;
@@ -157,7 +157,7 @@ SKILLS
 .skillDivider {
   background-color: rgb(255, 255, 255, 0.5);
   text-align: center;
-  border-width:5px;  
+  border-width: 5px;  
   border-bottom-style: outset;
   padding: 60px 0px;
   font-weight: 700;
@@ -172,7 +172,7 @@ PROJECTS
 hr {
   width: 1px; 
   height: 100px; 
-  background: black; 
+  background: rgb(0, 0, 0); 
   border: none;
 }
 
@@ -211,7 +211,7 @@ hr {
 }
 
 .projectContainer {
-  border: 3px solid grey;
+  border: 3px solid rgb(128, 128, 128);
   border-radius: 30px;
   padding: 20px 40px 40px;
   max-width: 640px;
@@ -249,12 +249,12 @@ div.projectContainer {
 FOOTER
 ================================ */
 footer {
-  background-color: #fff9da;
+  background-color: rgb(255, 249, 218);
   font-family: "Raleway", sans-serif;
   text-align: center;
   letter-spacing: 0.05em;
   margin: 0 auto;
-  border: 5px solid #000000;
+  border: 5px solid rgb(0, 0, 0);
   font-weight: 700;
   padding: 40px 0;
 }
