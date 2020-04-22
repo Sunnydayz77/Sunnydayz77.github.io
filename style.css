@@ -83,6 +83,10 @@ h2 {
   border-radius: 30px;
 }
 
+p {
+  max-width: 800px;
+  margin: 0 auto;
+}
 
 /* =============================
 MAIN BACKGROUND IMAGE
@@ -131,7 +135,7 @@ ABOUT ME
 
 #Section_further_down2 > a > img {
   border-radius: 30px;
-  padding: 20px;
+  padding: 10px;
 }
 
 /* =============================
@@ -144,8 +148,21 @@ PARAGRAPH ABOUT ME
   border-bottom-style: outset;
   padding: 20px;
   font-weight: 700;
-  top: 10px;
-  bottom: 10px;
+}
+
+/* =============================
+SKILLS
+================================ */
+
+.skillDivider {
+  background-color: rgb(255, 255, 255, 0.5);
+  text-align: center;
+  border-width:5px;  
+  border-bottom-style: outset;
+  padding: 60px 0px;
+  font-weight: 700;
+  /* top: 10px;
+  bottom: 10px; */
 }
 
 /* =============================
@@ -160,7 +177,7 @@ hr {
 }
 
 .fourthDivider {
-  padding: 5px 0 0 5px;
+  padding: 60px 0px;  
   display: inline-block;
   max-width: max-content;
   max-height: max-content;
@@ -239,6 +256,7 @@ footer {
   margin: 0 auto;
   border: 5px solid #000000;
   font-weight: 700;
+  padding: 40px 0;
 }
 
 #Section_further_down4 > p > a {
