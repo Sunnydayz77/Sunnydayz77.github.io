@@ -106,8 +106,6 @@ MAIN BACKGROUND IMAGE
   background-size: contain;
 }
 
-
-
 #divs_container > div.firstDivider > img {
   margin: 0 !important;
   padding: 0 !important;
@@ -153,7 +151,6 @@ SKILLS
 ================================ */
 
 .skillDivider {
-  background-color: rgb(255, 255, 255, 0.5);
   text-align: center;
   border-width: 5px;  
   border-bottom-style: outset;
@@ -164,6 +161,10 @@ SKILLS
 /* =============================
 PROJECTS
 ================================ */
+
+.projects {
+  background-color: rgb(255, 255, 255, 0.5);
+}
 
 hr {
   width: 1px; 
@@ -202,6 +203,7 @@ hr {
  */
 
 .projectContainer {
+  background-color: rgb(51, 172, 132);
   border: 3px solid rgb(128, 128, 128);
   border-radius: 30px;
   padding: 20px 40px 40px;
