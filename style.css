@@ -213,6 +213,7 @@ div.projectContainer {
   margin: 0 auto;
   padding: 20px;
   align-items: center;
+  display: flex;
 }
 
 .containerImage {
