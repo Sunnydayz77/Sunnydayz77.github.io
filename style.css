@@ -78,6 +78,7 @@ a {
 .centeredName {
   font-size: 40px;
   position: absolute;
+  overflow-wrap: normal;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -101,7 +102,7 @@ MAIN BACKGROUND IMAGE
   border-bottom-style: outset;
   margin: 0 auto;
   width: 85%;
-  height: 700px;
+  height: 85%;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -230,7 +231,7 @@ div.projectContainer {
 .containerText {
     display: inline-block;
     width: 45%;
-    padding: 5px;
+    padding: 20px;
     @media (max-width: 620px) {
         width: 50%;
     }
@@ -261,3 +262,34 @@ footer {
 MEDIA RESPONSIVENESS
 ================================ */
 
+@media (max-width: 675px) {
+
+header {
+  padding: 5px;
+}
+
+nav {
+  font-size: 12px;
+}
+
+a {
+  padding: 5px;
+}
+
+.centeredName {
+  font-size: 16px;
+  position: absolute;
+  overflow-wrap: normal;
+  top: 15%;
+  left: 50%;
+  }
+
+.firstDivider {
+    max-height: 500px;
+  }
+
+#divs_container > div.firstDivider > img {
+  max-height: 300px;
+}
+
+}
