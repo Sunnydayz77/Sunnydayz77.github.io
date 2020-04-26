@@ -180,28 +180,6 @@ hr {
   max-width: max-content;
   max-height: max-content;
 }
-/* 
-.fifthDivider {
-  padding: 5px 0 0 5px;
-  display: inline-block;
-  max-width: max-content;
-  max-height: max-content;
-}
-
-.sixthDivider {
-  padding: 5px 0 0 5px;
-  display: inline-block;
-  max-width: max-content;
-  max-height: max-content;
-}
-
-.seventhDivider {
-  padding: 5px 0 0 5px;
-  display: inline-block;
-  max-width: max-content;
-  max-height: max-content;
-}
- */
 
 .projectContainer {
   background-color: rgb(51, 172, 132);
@@ -223,7 +201,6 @@ div.projectContainer {
   display: inline-block;
   vertical-align: top;
   width: 50%;
-  /* height: 43%; */
   background-repeat: no-repeat;
   background-size: contain;
   }
