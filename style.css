@@ -273,13 +273,17 @@ a {
 
 @media (min-width: 1745px) {
 
-  .centeredName {
-  top: 20%;
-}
-
 .firstDivider {
   width: 50%;
   height: 100%;
+}
+
+}
+
+@media (min-height: 760px) {
+
+.centeredName {
+  top: 20%;
 }
 
 }
