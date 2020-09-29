@@ -20,7 +20,6 @@ a:hover {
   margin: 0 auto;
   height: auto;
   width: auto;
-  border: solid rgb(0, 0, 0); 
   border-width: 5px 5px 0px 5px;
 }
 
@@ -53,7 +52,6 @@ HEADER
 
 header {
   background-color: rgb(255, 249, 218);
-  border: solid rgb(0, 0, 0); 
   border-width: 5px 5px 0px 5px;
   text-align: center;
   margin: 0 auto;
@@ -97,8 +95,6 @@ MAIN BACKGROUND IMAGE
   background-size: cover;
   /* background-image: url("http://s1.picswalls.com/wallpapers/2014/08/01/new-york-city-background_010648668_143.jpg"); */
   background-position: center;
-  border-width: 5px;  
-  border-bottom-style: outset;
   margin: 0 auto;
   width: 80%;
   height: 50%;
@@ -113,7 +109,7 @@ MAIN BACKGROUND IMAGE
   border: 0 !important;
   max-width: 100%;
   max-height: 100%;
-  /* display: block; */
+  display: block;
   filter: blur(2px);
 }
 
@@ -141,8 +137,6 @@ PARAGRAPH ABOUT ME
 .thirdDivider {
   background-color: rgb(255, 255, 255, 0.5);
   text-align: center;
-  border-width: 5px;  
-  border-bottom-style: outset;
   padding: 20px;
   font-weight: 700;
 }
@@ -153,8 +147,6 @@ SKILLS
 
 .skillDivider {
   text-align: center;
-  border-width: 5px;  
-  border-bottom-style: outset;
   padding: 60px 0px;
   font-weight: 700;
 }
@@ -183,7 +175,7 @@ hr {
 
 .projectContainer {
   background-color: rgb(51, 172, 132);
-  border: 3px solid rgb(128, 128, 128);
+  border: 10px solid rgb(255, 255, 255, 0.5);
   border-radius: 30px;
   padding: 20px 40px 40px;
   max-width: 640px;
@@ -225,7 +217,6 @@ footer {
   text-align: center;
   letter-spacing: 0.05em;
   margin: 0 auto;
-  border: 5px solid rgb(0, 0, 0);
   font-weight: 700;
   padding: 40px 0;
 }
@@ -280,7 +271,7 @@ a {
 
 }
 
-@media (min-height: 760px) {
+@media (min-height: 960px) {
 
 .centeredName {
   top: 20%;
