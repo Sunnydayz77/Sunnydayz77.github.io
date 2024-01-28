@@ -24,6 +24,7 @@ a:hover {
 
 h2 {
   text-align: center;
+  text-decoration: underline overline;
 }
 
 .button {
